@@ -1,0 +1,10 @@
+{
+  "name": "cadastro-grupo-carvalho",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server -c-1 -o /index.html"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}

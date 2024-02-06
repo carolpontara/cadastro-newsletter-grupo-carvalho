@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/login-style.css"> 
+    <link rel="icon" href="/img/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+    <title>Recuperar Senha - Grupo Carvalho</title>
+</head>
+<body>
+    <div class="container">
+        <div id="recuperarSenha" class="form-container">
+            <h1>Recuperar Senha</h1>
+            <p class="subtitle">Informe seu e-mail para recuperar sua senha.</p>
+            <form id="recuperarSenhaForm">
+                <label for="recuperarSenhaEmail">E-mail:</label>
+                <input type="email" id="recuperarSenhaEmail" placeholder="Digite seu e-mail" required>
+
+                <div class="login-options">
+                    <button type="button" onclick="enviarEmailRecuperacao()">Enviar E-mail</button>
+                    <a href="login.html">Cancelar</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="home-link">
+            <a href="/index.html">Voltar para a Home</a>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
